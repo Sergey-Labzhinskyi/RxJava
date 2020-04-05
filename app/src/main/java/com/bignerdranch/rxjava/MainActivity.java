@@ -46,6 +46,11 @@ import static io.reactivex.Observable.just;
      private AdView mAdView;
 
 
+
+
+
+
+
      @Override
      protected void onDestroy() {
          super.onDestroy();
