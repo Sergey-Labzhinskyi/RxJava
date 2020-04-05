@@ -1,4 +1,6 @@
 package com.bignerdranch.rxjava;
 
-public class BooksActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class BooksActivity extends AppCompatActivity {
 }

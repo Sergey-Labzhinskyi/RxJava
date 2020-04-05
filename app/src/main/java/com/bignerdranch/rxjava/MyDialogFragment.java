@@ -7,6 +7,7 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.animation.Animation;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -29,6 +30,11 @@ public class MyDialogFragment extends DialogFragment {
     private Disposable disposable;
     Button time;
     TextView textView;
+
+    @Override
+    public Animation onCreateAnimation(int transit, boolean enter, int nextAnim) {
+        return super.onCreateAnimation(transit, enter, nextAnim);
+    }
 
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
