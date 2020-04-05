@@ -43,12 +43,16 @@ public class MyDialogFragment extends DialogFragment {
                 .setMessage("Покормите кота!")
                 .setIcon(R.drawable.ic_launcher_background)
                 .setPositiveButton("ОК, иду на кухню", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
+                    public void onClickialogInterface dialog, int id) {
                         // Закрываем окно
                         dialog.cancel();
                     }
                 });
         return builder.create();*/
+
+
+
+
 
 
 
