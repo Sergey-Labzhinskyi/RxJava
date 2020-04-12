@@ -193,6 +193,12 @@ startDialog.setOnClickListener(new View.OnClickListener() {
          return observable;
      }
 */
+
+     @Override
+     protected void onRestart() {
+         super.onRestart();
+     }
+
      public void createObserveble() {
          Observable<Integer> mObservable = just(1, 2, 3 ,4);
          /*  Observable<Integer> mObservable = Observable.fromCallable(new Callable<Integer>() {
