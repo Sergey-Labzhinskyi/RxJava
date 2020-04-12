@@ -50,12 +50,6 @@ public class MyDialogFragment extends DialogFragment {
                 });
         return builder.create();*/
 
-
-
-
-
-
-
         builder.setTitle("Важное сообщение!");
         LayoutInflater inflater = getActivity().getLayoutInflater();
         View view = inflater.inflate(R.layout.test, null);
