@@ -39,16 +39,6 @@ public class MyDialogFragment extends DialogFragment {
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-      /*  builder.setTitle("Важное сообщение!")
-                .setMessage("Покормите кота!")
-                .setIcon(R.drawable.ic_launcher_background)
-                .setPositiveButton("ОК, иду на кухню", new DialogInterface.OnClickListener() {
-                    public void onClickialogInterface dialog, int id) {
-                        // Закрываем окно
-                        dialog.cancel();
-                    }
-                });
-        return builder.create();*/
 
 
 
