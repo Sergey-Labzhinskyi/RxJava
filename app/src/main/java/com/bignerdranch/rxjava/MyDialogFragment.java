@@ -65,6 +65,10 @@ time = view.findViewById(R.id.btn_skip_ad);
 textView = view.findViewById(R.id.textView);
 
 
+
+
+
+
         return builder.create();
 
     }
