@@ -71,6 +71,11 @@ public class MyDialogFragment extends DialogFragment {
         mAdView.loadAd(adRequest);
 */
 
+
+
+
+
+
 time = view.findViewById(R.id.btn_skip_ad);
 textView = view.findViewById(R.id.textView);
 
