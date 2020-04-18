@@ -56,11 +56,4 @@
         ads:layout_constraintStart_toStartOf="parent"
         ads:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </Button>
-
-
-
 </LinearLayout>
