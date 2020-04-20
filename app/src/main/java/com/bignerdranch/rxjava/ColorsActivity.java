@@ -1,4 +1,10 @@
 package com.bignerdranch.rxjava;
 
-public class ColorsActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class ColorsActivity extends AppCompatActivity {
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
 }

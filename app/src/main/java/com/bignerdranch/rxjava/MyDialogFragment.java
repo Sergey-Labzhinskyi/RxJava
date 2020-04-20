@@ -62,6 +62,11 @@ public class MyDialogFragment extends DialogFragment {
         builder.setView(view);
 
 
+
+
+
+
+
      /*   MobileAds.initialize(getActivity(), initializationStatus -> {
         });
 
