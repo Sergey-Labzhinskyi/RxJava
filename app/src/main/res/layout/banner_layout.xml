@@ -13,6 +13,9 @@
     xmlns:tools="http://schemas.android.com/tools">
 
 
+
+
+
     <Button
         android:id="@+id/btn_skip_ad"
         android:layout_width="@dimen/_22dp"
