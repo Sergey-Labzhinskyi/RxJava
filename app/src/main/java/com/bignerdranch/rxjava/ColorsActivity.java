@@ -22,4 +22,9 @@ public class ColorsActivity extends AppCompatActivity {
     protected void onStop() {
         super.onStop();
     }
+
+    @Override
+    protected void onPostResume() {
+        super.onPostResume();
+    }
 }
