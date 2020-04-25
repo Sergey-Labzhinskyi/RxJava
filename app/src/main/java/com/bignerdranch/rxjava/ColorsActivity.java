@@ -16,4 +16,10 @@ public class ColorsActivity extends AppCompatActivity {
     public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
         super.onCreate(savedInstanceState, persistentState);super.onCreate(savedInstanceState, persistentState);
     }
+
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+    }
 }
