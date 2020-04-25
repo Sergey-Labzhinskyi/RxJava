@@ -7,4 +7,9 @@ public class ColorsActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
     }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
 }
