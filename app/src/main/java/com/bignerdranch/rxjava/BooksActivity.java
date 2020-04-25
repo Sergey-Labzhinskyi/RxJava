@@ -2,6 +2,7 @@ package com.bignerdranch.rxjava;
 
 import android.os.Bundle;
 import android.os.PersistableBundle;
+import android.view.SearchEvent;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -27,5 +28,10 @@ public class BooksActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
+    }
+
+    @Override
+    public boolean onSearchRequested(@Nullable SearchEvent searchEvent) {
+        return super.onSearchRequested(searchEvent);
     }
 }
