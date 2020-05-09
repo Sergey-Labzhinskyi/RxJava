@@ -7,10 +7,6 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class ColorsActivity extends AppCompatActivity {
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-    }
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
@@ -22,6 +18,9 @@ public class ColorsActivity extends AppCompatActivity {
     protected void onStop() {
         super.onStop();
     }
+
+
+
 
     @Override
     protected void onPostResume() {

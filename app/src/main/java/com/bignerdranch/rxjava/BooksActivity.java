@@ -2,6 +2,7 @@ package com.bignerdranch.rxjava;
 
 import android.os.Bundle;
 import android.os.PersistableBundle;
+import android.util.Log;
 import android.view.SearchEvent;
 
 import androidx.annotation.Nullable;
@@ -18,16 +19,7 @@ public class BooksActivity extends AppCompatActivity {
     @Override
     protected void onRestart() {
         super.onRestart();
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
+        Log.d("", "");
     }
 
     @Override

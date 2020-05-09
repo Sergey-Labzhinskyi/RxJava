@@ -5,12 +5,14 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.animation.Animation;
 import android.widget.Button;
 import android.widget.TextView;
 
+import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
 
 import com.google.android.gms.ads.AdRequest;
@@ -30,6 +32,18 @@ public class MyDialogFragment extends DialogFragment {
     private Disposable disposable;
     Button time;
     TextView textView;
+
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        Log.d("TAGGG", "on");
+    }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
 
     @Override
     public Animation onCreateAnimation(int transit, boolean enter, int nextAnim) {
