@@ -20,6 +20,8 @@ public class BooksActivity extends AppCompatActivity {
     protected void onRestart() {
         super.onRestart();
         Log.d("", "");
+        Log.d("", "");
+        Log.d("", "");
     }
 
     @Override
