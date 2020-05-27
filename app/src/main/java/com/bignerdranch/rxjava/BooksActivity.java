@@ -22,6 +22,8 @@ public class BooksActivity extends AppCompatActivity {
         Log.d("", "");
     }
 
+
+
     @Override
     public boolean onSearchRequested(@Nullable SearchEvent searchEvent) {
         return super.onSearchRequested(searchEvent);
