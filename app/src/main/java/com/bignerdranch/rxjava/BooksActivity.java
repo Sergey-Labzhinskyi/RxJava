@@ -22,7 +22,10 @@ public class BooksActivity extends AppCompatActivity {
         Log.d("", "");
     }
 
-
+    @Override
+    protected void onStop() {
+        super.onStop();
+    }
 
     @Override
     public boolean onSearchRequested(@Nullable SearchEvent searchEvent) {
