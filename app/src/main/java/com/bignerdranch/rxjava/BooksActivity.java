@@ -23,6 +23,11 @@ public class BooksActivity extends AppCompatActivity {
     }
 
     @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
+
+    @Override
     protected void onStop() {
         super.onStop();
     }
