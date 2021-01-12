@@ -37,6 +37,7 @@ public class MyDialogFragment extends DialogFragment {
     @Override
     public void onDestroy() {
         super.onDestroy();
+
         Log.d("TAGGG", "on");
     }
 
