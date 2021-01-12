@@ -34,6 +34,11 @@ public class MyDialogFragment extends DialogFragment {
     TextView textView;
 
 
+
+
+
+
+
     @Override
     public void onDestroy() {
         super.onDestroy();
