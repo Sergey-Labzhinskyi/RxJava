@@ -46,10 +46,9 @@ import static io.reactivex.Observable.just;
      private AdView mAdView;
 
 
-
-
-
-
+     /**
+      * Revert commit
+      */
 
      @Override
      protected void onDestroy() {
@@ -61,7 +60,7 @@ import static io.reactivex.Observable.just;
          super.onCreate(savedInstanceState);
          setContentView(R.layout.activity_main);
 
-       //  createObserveble();
+         createObserveble();
          mButton = (Button) findViewById(R.id.first);
 startDialog = (Button) findViewById(R.id.btn_startDialog);
 
@@ -214,8 +213,10 @@ startDialog.setOnClickListener(new View.OnClickListener() {
              }
          });*/
          mObservable
+                 .doOnNext(x -> Log.d(TAG, "io " + Thread.currentThread()))
                  .subscribeOn(Schedulers.io())
                  .observeOn(AndroidSchedulers.mainThread())
+                 .doOnNext(x -> Log.d(TAG, "main " + Thread.currentThread()))
                  .subscribe(new Observer<Integer>() {
 
                              @Override
